@@ -8,7 +8,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity @Setter @Getter
+@Entity @Setter @Getter @NoArgsConstructor @AllArgsConstructor
 public class WorkTask extends Task {
 
     @Id
